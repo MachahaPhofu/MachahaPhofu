@@ -1,0 +1,56 @@
+/* styles.css */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  button {
+    padding: 8px;
+    background: #b9cedf;
+    color: #e6dddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  nav button {
+    margin-right: 10px;
+  }
+/* styles.css */
+table {
+   
+  border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #e2a9a9;
+  }
+  tr:hover {
+    background-color: #460707;
+  }
+  .text{
+    background-color: green;
+    text-align: center;
+  }
+  .dashboard-container{
+
+    text-align: center;
+    
+  }
+  .input-large {
+     font-size: 20px;
+     padding: 10px; 
+     margin: 10px 0; 
+     border-radius: 10px; 
+     border: 1px solid #ccc; 
+     width: 100%; 
+    box-sizing: border-box;
+ }
+    
